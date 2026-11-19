@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "6aff27c0249fda3729134c21",
+    "ConsentId": "6aff27c0249fda3729134c21",
+    "citizenId": "6aff27c079d5e5968fc251bf",
+    "requestingServiceId": "Post-Matric Scholarship Scheme 2026",
+    "categories": [
+      "Income Certificate",
+      "Residence Verification"
+    ],
+    "purpose": "Inter-departmental verification for Post-Matric Scholarship Scheme 2026",
+    "status": "Approved",
+    "expiry": "2027-02-17T16:46:29.166Z",
+    "createdAt": "2026-11-19T16:45:52.643Z",
+    "updatedAt": "2026-11-19T16:46:29.168Z"
+  }
+]

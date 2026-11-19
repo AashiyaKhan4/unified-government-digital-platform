@@ -1,0 +1,47 @@
+[
+  {
+    "_id": "6aff27c00c58e038f1532496",
+    "ConnectorId": "6aff27c00c58e038f1532496",
+    "name": "ScholarshipConnector",
+    "endpoint": "http://localhost:5000/mock-portals/scholarship",
+    "mappingRules": {
+      "name": "student_name",
+      "citizen_reference": "student_id",
+      "date_of_birth": "birth_date"
+    },
+    "connectionStatus": "Connected",
+    "lastTested": "2026-11-19T16:45:52.633Z",
+    "createdAt": "2026-11-19T16:45:52.633Z",
+    "updatedAt": "2026-11-19T16:45:52.633Z"
+  },
+  {
+    "_id": "6aff27c0ae13f4cddad94bc1",
+    "ConnectorId": "6aff27c0ae13f4cddad94bc1",
+    "name": "CertificateConnector",
+    "endpoint": "http://localhost:5000/mock-portals/income",
+    "mappingRules": {
+      "name": "applicant_name",
+      "citizen_reference": "applicant_number",
+      "date_of_birth": "dob"
+    },
+    "connectionStatus": "Connected",
+    "lastTested": "2026-11-19T16:45:52.634Z",
+    "createdAt": "2026-11-19T16:45:52.634Z",
+    "updatedAt": "2026-11-19T16:45:52.634Z"
+  },
+  {
+    "_id": "6aff27c058b9cf690eb59a76",
+    "ConnectorId": "6aff27c058b9cf690eb59a76",
+    "name": "ResidenceConnector",
+    "endpoint": "http://localhost:5000/mock-portals/residence",
+    "mappingRules": {
+      "name": "fullName",
+      "citizen_reference": "resident_id",
+      "date_of_birth": "date_of_birth"
+    },
+    "connectionStatus": "Connected",
+    "lastTested": "2026-11-19T16:45:52.634Z",
+    "createdAt": "2026-11-19T16:45:52.634Z",
+    "updatedAt": "2026-11-19T16:45:52.634Z"
+  }
+]

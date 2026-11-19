@@ -1,0 +1,175 @@
+[
+  {
+    "_id": "6aff27c0aac6dfc40928e0f5",
+    "ApplicationId": "6aff27c0aac6dfc40928e0f5",
+    "applicationTrackingCode": "SCH-1025",
+    "citizenId": "6aff27c079d5e5968fc251bf",
+    "serviceId": "6aff27c0d5a7add5b875793e",
+    "serviceName": "Post-Matric Scholarship Scheme 2026",
+    "department": "Higher & Technical Education Department",
+    "status": "Under Verification",
+    "submittedAt": "2026-11-17T16:45:52.644Z",
+    "formData": {
+      "fullName": "Rahul Sharma",
+      "course": "B.Tech in Computer Science & Engineering",
+      "institution": "Government College of Engineering, Mumbai",
+      "annualIncome": "₹1,80,000",
+      "category": "General Merit"
+    },
+    "timeline": [
+      {
+        "stage": "Application Submitted",
+        "status": "Completed",
+        "timestamp": "2026-11-17T16:45:52.644Z",
+        "details": "Submitted via Samanvay Gateway. Tracking Code: SCH-1025"
+      },
+      {
+        "stage": "Initial Validation",
+        "status": "Completed",
+        "timestamp": "2026-11-17T16:47:52.644Z",
+        "details": "Unified Profile data matched and validated."
+      },
+      {
+        "stage": "Department Verification",
+        "status": "Completed",
+        "timestamp": "2026-11-17T16:51:42.644Z",
+        "details": "Revenue Dept verified Income (₹1,80,000); District Admin confirmed Domicile (Mumbai Suburban)."
+      },
+      {
+        "stage": "Decision / Approval",
+        "status": "Under Final Review",
+        "timestamp": "2026-11-19T16:45:52.644Z",
+        "details": "Verification successful. Assigned to Priya Deshmukh (Dept Officer) for final sanction."
+      }
+    ],
+    "verifiedData": {
+      "income": {
+        "certificateNumber": "MH-INC-2026-98124",
+        "annualIncome": 180000,
+        "status": "VALID",
+        "issuingAuthority": "Tahasildar Office, Mumbai"
+      },
+      "residence": {
+        "district": "Mumbai Suburban",
+        "yearsOfResidence": 15,
+        "status": "VERIFIED"
+      }
+    },
+    "createdAt": "2026-11-19T16:45:52.645Z",
+    "updatedAt": "2026-11-19T16:45:52.645Z"
+  },
+  {
+    "_id": "6aff27c06f0d0b88b4b9ef8c",
+    "ApplicationId": "6aff27c06f0d0b88b4b9ef8c",
+    "applicationTrackingCode": "INC-2031",
+    "citizenId": "6aff27c079d5e5968fc251bf",
+    "serviceId": "6aff27c084abdf5c4c925efc",
+    "serviceName": "Income Certificate Issuance",
+    "department": "Revenue & Forest Department",
+    "status": "Approved",
+    "submittedAt": "2026-11-12T16:45:52.646Z",
+    "decisionRemarks": "Verified against Maharashtra Revenue Portal records. Income certificate issued.",
+    "timeline": [
+      {
+        "stage": "Application Submitted",
+        "status": "Completed",
+        "timestamp": "2026-11-12T16:45:52.646Z",
+        "details": "Application received and registered."
+      },
+      {
+        "stage": "Revenue Verification",
+        "status": "Completed",
+        "timestamp": "2026-11-13T16:45:52.646Z",
+        "details": "Tahasildar office verified revenue records."
+      },
+      {
+        "stage": "Digital Certificate Issued",
+        "status": "Approved",
+        "timestamp": "2026-11-14T16:45:52.646Z",
+        "details": "Certificate MH-INC-2026-98124 digitally signed and linked to citizen profile."
+      }
+    ],
+    "createdAt": "2026-11-19T16:45:52.646Z",
+    "updatedAt": "2026-11-19T16:45:52.646Z"
+  },
+  {
+    "_id": "6aff27c04c2281ab260fb4d2",
+    "ApplicationId": "6aff27c04c2281ab260fb4d2",
+    "applicationTrackingCode": "RES-1048",
+    "citizenId": "6aff27c079d5e5968fc251bf",
+    "serviceId": "6aff27c0525f841232c2532c",
+    "serviceName": "Domicile & Residence Certificate",
+    "department": "District Administration, Government of Maharashtra",
+    "status": "Pending Verification",
+    "submittedAt": "2026-11-18T16:45:52.647Z",
+    "statusReason": "External portal queue delay: verification token pending.",
+    "timeline": [
+      {
+        "stage": "Application Submitted",
+        "status": "Completed",
+        "timestamp": "2026-11-18T16:45:52.647Z",
+        "details": "Application submitted."
+      },
+      {
+        "stage": "Local Field Inquiry",
+        "status": "Pending",
+        "timestamp": "2026-11-18T16:52:32.647Z",
+        "details": "Awaiting Talathi field inquiry report."
+      }
+    ],
+    "createdAt": "2026-11-19T16:45:52.647Z",
+    "updatedAt": "2026-11-19T16:45:52.647Z"
+  },
+  {
+    "_id": "6aff27e579c8bf0321330a5b",
+    "ApplicationId": "6aff27e579c8bf0321330a5b",
+    "applicationTrackingCode": "SCH-5246",
+    "citizenId": "6aff27c079d5e5968fc251bf",
+    "serviceId": "6aff27c0d5a7add5b875793e",
+    "serviceName": "Post-Matric Scholarship Scheme 2026",
+    "department": "Higher & Technical Education Department",
+    "status": "Incomplete",
+    "formData": {
+      "fullName": "Rahul Sharma",
+      "course": "B.Tech CSE",
+      "annualIncome": "₹1,80,000"
+    },
+    "timeline": [
+      {
+        "stage": "Application Submitted",
+        "status": "Completed",
+        "timestamp": "2026-11-19T16:46:29.492Z",
+        "details": "Application submitted successfully via Samanvay Gateway. Tracking ID: SCH-5246"
+      },
+      {
+        "stage": "Initial Validation",
+        "status": "Completed",
+        "timestamp": "2026-11-19T16:46:29.494Z",
+        "details": "Basic information validated against citizen unified profile."
+      },
+      {
+        "stage": "Consent Verification",
+        "status": "Blocked",
+        "timestamp": "2026-11-19T16:46:29.495Z",
+        "details": "Citizen consent for Income Certificate sharing is missing or denied."
+      }
+    ],
+    "submittedAt": "2026-11-19T16:46:29.492Z",
+    "interoperabilityLogs": [
+      {
+        "service": "Income Certificate Portal",
+        "timestamp": "2026-11-19T16:46:29.495Z",
+        "result": {
+          "success": false,
+          "consentGranted": false,
+          "reason": "CONSENT_DENIED",
+          "message": "Data sharing blocked: Citizen has not granted active consent for Income Certificate.",
+          "correlationId": "CORR-35552DB0ECC6"
+        }
+      }
+    ],
+    "createdAt": "2026-11-19T16:46:29.492Z",
+    "updatedAt": "2026-11-19T16:46:29.495Z",
+    "statusReason": "Consent Required: Please approve sharing of Income & Residence data."
+  }
+]

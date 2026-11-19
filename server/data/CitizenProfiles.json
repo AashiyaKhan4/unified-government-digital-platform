@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "6aff27c037041cf75c6fede5",
+    "CitizenProfileId": "6aff27c037041cf75c6fede5",
+    "userId": "6aff27c079d5e5968fc251bf",
+    "fullName": "Rahul Sharma",
+    "dateOfBirth": "2004-06-15",
+    "address": "Flat 402, Green Park, Andheri East, Mumbai, Maharashtra - 400069",
+    "contact": {
+      "phone": "+91 98201 12345",
+      "email": "citizen@samanvay.gov.in"
+    },
+    "education": {
+      "course": "B.Tech in Computer Science & Engineering",
+      "institution": "Government College of Engineering, Mumbai",
+      "year": 2026,
+      "score": 88.5
+    },
+    "verifiedFields": [
+      "Unified Identity (Verified)",
+      "Income Certificate (Valid)",
+      "Domicile / Residence (Verified)"
+    ],
+    "createdAt": "2026-11-19T16:45:52.632Z",
+    "updatedAt": "2026-11-19T16:45:52.632Z"
+  }
+]

@@ -1,0 +1,148 @@
+[
+  {
+    "_id": "6aff27c0e79e8ceb4cc089d6",
+    "AuditLogId": "6aff27c0e79e8ceb4cc089d6",
+    "actor": "6aff27c079d5e5968fc251bf",
+    "action": "USER_LOGIN",
+    "resource": "/auth/login",
+    "outcome": "Success",
+    "timestamp": "2026-11-19T15:45:52.650Z",
+    "details": {
+      "role": "citizen",
+      "ip": "127.0.0.1"
+    },
+    "createdAt": "2026-11-19T16:45:52.650Z",
+    "updatedAt": "2026-11-19T16:45:52.650Z"
+  },
+  {
+    "_id": "6aff27c070e1fc9da355789e",
+    "AuditLogId": "6aff27c070e1fc9da355789e",
+    "actor": "6aff27c079d5e5968fc251bf",
+    "action": "CONSENT_GRANTED",
+    "resource": "/consents/6aff27c0249fda3729134c21",
+    "outcome": "Success",
+    "timestamp": "2026-11-17T16:45:52.651Z",
+    "details": {
+      "categories": [
+        "Income Certificate",
+        "Residence Verification"
+      ],
+      "duration": "90 days"
+    },
+    "createdAt": "2026-11-19T16:45:52.651Z",
+    "updatedAt": "2026-11-19T16:45:52.651Z"
+  },
+  {
+    "_id": "6aff27c02473839cf4299a0f",
+    "AuditLogId": "6aff27c02473839cf4299a0f",
+    "actor": "SYSTEM_WORKFLOW",
+    "action": "INTEROP_VERIFY_INCOME",
+    "resource": "http://localhost:5000/mock-portals/income/verify",
+    "outcome": "Success",
+    "timestamp": "2026-11-17T16:46:02.652Z",
+    "details": {
+      "requestPayload": {
+        "applicant_name": "Rahul Sharma",
+        "applicant_number": "6aff27c079d5e5968fc251bf",
+        "dob": "2004-06-15"
+      },
+      "responseNormalized": {
+        "annualIncome": 180000,
+        "status": "VALID"
+      }
+    },
+    "createdAt": "2026-11-19T16:45:52.652Z",
+    "updatedAt": "2026-11-19T16:45:52.652Z"
+  },
+  {
+    "_id": "6aff27c07fd0d69abf4ecab1",
+    "AuditLogId": "6aff27c07fd0d69abf4ecab1",
+    "actor": "SYSTEM_WORKFLOW",
+    "action": "INTEROP_VERIFY_RESIDENCE",
+    "resource": "http://localhost:5000/mock-portals/residence/verify",
+    "outcome": "Success",
+    "timestamp": "2026-11-17T16:46:12.653Z",
+    "details": {
+      "requestPayload": {
+        "fullName": "Rahul Sharma",
+        "resident_id": "6aff27c079d5e5968fc251bf",
+        "date_of_birth": "2004-06-15"
+      },
+      "responseNormalized": {
+        "district": "Mumbai Suburban",
+        "status": "VERIFIED"
+      }
+    },
+    "createdAt": "2026-11-19T16:45:52.653Z",
+    "updatedAt": "2026-11-19T16:45:52.653Z"
+  },
+  {
+    "_id": "6aff27e507c51c89c47b3ce6",
+    "AuditLogId": "6aff27e507c51c89c47b3ce6",
+    "actor": "6aff27c079d5e5968fc251bf",
+    "action": "INTEROP_REQUEST_INCOME",
+    "resource": "/mock-portals/income",
+    "outcome": "Failure",
+    "correlationId": "CORR-0D65157D97BC",
+    "timestamp": "2026-11-19T16:46:29.160Z",
+    "details": {
+      "error": "Consent verification failed. Required consent is missing, denied, or expired.",
+      "category": "Income Certificate",
+      "requestingService": "Scholarship Department"
+    },
+    "createdAt": "2026-11-19T16:46:29.160Z",
+    "updatedAt": "2026-11-19T16:46:29.160Z"
+  },
+  {
+    "_id": "6aff27e58a4f8d0fa3c1f829",
+    "AuditLogId": "6aff27e58a4f8d0fa3c1f829",
+    "actor": "6aff27c079d5e5968fc251bf",
+    "action": "CONSENT_GRANTED",
+    "resource": "/consents/6aff27c0249fda3729134c21",
+    "outcome": "Success",
+    "timestamp": "2026-11-19T16:46:29.169Z",
+    "details": {
+      "requestingServiceId": "Post-Matric Scholarship Scheme 2026",
+      "categories": [
+        "Income Certificate",
+        "Residence Verification"
+      ],
+      "purpose": "Inter-departmental verification for Post-Matric Scholarship Scheme 2026",
+      "expiry": "2027-02-17T16:46:29.166Z"
+    },
+    "createdAt": "2026-11-19T16:46:29.169Z",
+    "updatedAt": "2026-11-19T16:46:29.169Z"
+  },
+  {
+    "_id": "6aff27e53bdfbe2570532c8c",
+    "AuditLogId": "6aff27e53bdfbe2570532c8c",
+    "actor": "6aff27c079d5e5968fc251bf",
+    "action": "APPLICATION_SUBMITTED",
+    "resource": "/applications/6aff27e579c8bf0321330a5b",
+    "outcome": "Success",
+    "timestamp": "2026-11-19T16:46:29.492Z",
+    "details": {
+      "trackingCode": "SCH-5246",
+      "serviceName": "Post-Matric Scholarship Scheme 2026"
+    },
+    "createdAt": "2026-11-19T16:46:29.492Z",
+    "updatedAt": "2026-11-19T16:46:29.492Z"
+  },
+  {
+    "_id": "6aff27e55eeb8c1411de0ae3",
+    "AuditLogId": "6aff27e55eeb8c1411de0ae3",
+    "actor": "6aff27c079d5e5968fc251bf",
+    "action": "INTEROP_REQUEST_INCOME",
+    "resource": "/mock-portals/income",
+    "outcome": "Failure",
+    "correlationId": "CORR-35552DB0ECC6",
+    "timestamp": "2026-11-19T16:46:29.494Z",
+    "details": {
+      "error": "Consent verification failed. Required consent is missing, denied, or expired.",
+      "category": "Income Certificate",
+      "requestingService": "scholarship-service"
+    },
+    "createdAt": "2026-11-19T16:46:29.494Z",
+    "updatedAt": "2026-11-19T16:46:29.494Z"
+  }
+]

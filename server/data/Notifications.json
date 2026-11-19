@@ -1,0 +1,67 @@
+[
+  {
+    "_id": "6aff27c0d6011c056020c5d6",
+    "NotificationId": "6aff27c0d6011c056020c5d6",
+    "userId": "6aff27c079d5e5968fc251bf",
+    "message": "Welcome to Samanvay! Your Unified Citizen Profile is initialized and verified.",
+    "eventType": "welcome",
+    "readStatus": true,
+    "timestamp": "2026-11-11T16:45:52.648Z",
+    "createdAt": "2026-11-19T16:45:52.648Z",
+    "updatedAt": "2026-11-19T16:45:52.648Z"
+  },
+  {
+    "_id": "6aff27c071c2c5fd57a6e8cc",
+    "NotificationId": "6aff27c071c2c5fd57a6e8cc",
+    "userId": "6aff27c079d5e5968fc251bf",
+    "message": "Your Income Certificate application (INC-2031) has been APPROVED.",
+    "eventType": "application_approved",
+    "readStatus": true,
+    "timestamp": "2026-11-14T16:45:52.649Z",
+    "createdAt": "2026-11-19T16:45:52.649Z",
+    "updatedAt": "2026-11-19T16:45:52.649Z"
+  },
+  {
+    "_id": "6aff27c02f63c29209376dc5",
+    "NotificationId": "6aff27c02f63c29209376dc5",
+    "userId": "6aff27c079d5e5968fc251bf",
+    "message": "Consent granted to Higher Education Dept for automated cross-verification.",
+    "eventType": "consent_granted",
+    "readStatus": false,
+    "timestamp": "2026-11-17T16:45:52.649Z",
+    "createdAt": "2026-11-19T16:45:52.649Z",
+    "updatedAt": "2026-11-19T16:45:52.649Z"
+  },
+  {
+    "_id": "6aff27e5ddda82fcf681d050",
+    "NotificationId": "6aff27e5ddda82fcf681d050",
+    "userId": "6aff27c079d5e5968fc251bf",
+    "message": "Consent granted for Income Certificate, Residence Verification to Post-Matric Scholarship Scheme 2026. Valid until 17/2/2027.",
+    "eventType": "consent_granted",
+    "readStatus": false,
+    "timestamp": "2026-11-19T16:46:29.490Z",
+    "createdAt": "2026-11-19T16:46:29.491Z",
+    "updatedAt": "2026-11-19T16:46:29.491Z"
+  },
+  {
+    "_id": "6aff27e5f027edfb211500c5",
+    "NotificationId": "6aff27e5f027edfb211500c5",
+    "userId": "6aff27c079d5e5968fc251bf",
+    "message": "Your application SCH-5246 for Post-Matric Scholarship Scheme 2026 has been submitted.",
+    "eventType": "application_submitted",
+    "readStatus": false,
+    "timestamp": "2026-11-19T16:46:29.493Z",
+    "createdAt": "2026-11-19T16:46:29.493Z",
+    "updatedAt": "2026-11-19T16:46:29.493Z"
+  },
+  {
+    "_id": "6aff27e57b7dfc95df360693",
+    "NotificationId": "6aff27e57b7dfc95df360693",
+    "userId": "6aff27c079d5e5968fc251bf",
+    "message": "Action Required: Please grant consent to share verification data for your Post-Matric Scholarship Scheme 2026 application.",
+    "eventType": "consent_request",
+    "readStatus": false,
+    "createdAt": "2026-11-19T16:46:29.496Z",
+    "updatedAt": "2026-11-19T16:46:29.496Z"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "6aff27c0d5a7add5b875793e",
+    "ServiceId": "6aff27c0d5a7add5b875793e",
+    "name": "Post-Matric Scholarship Scheme 2026",
+    "department": "Higher & Technical Education Department",
+    "description": "Financial assistance for meritorious students in professional degree programs.",
+    "requirements": [
+      "Unified Profile",
+      "Income Certificate",
+      "Residence Verification",
+      "Academic Records"
+    ],
+    "connectorId": "6aff27c00c58e038f1532496",
+    "workflow": [
+      "Application Submitted",
+      "Initial Validation",
+      "Inter-department Verification",
+      "Official Decision"
+    ],
+    "benefits": "₹50,000 / year tuition fee waiver and allowance",
+    "createdAt": "2026-11-19T16:45:52.635Z",
+    "updatedAt": "2026-11-19T16:45:52.635Z"
+  },
+  {
+    "_id": "6aff27c084abdf5c4c925efc",
+    "ServiceId": "6aff27c084abdf5c4c925efc",
+    "name": "Income Certificate Issuance",
+    "department": "Revenue & Forest Department",
+    "description": "Official certification of annual family income for welfare schemes.",
+    "requirements": [
+      "Unified Profile",
+      "Salary / Income Self-declaration"
+    ],
+    "connectorId": "6aff27c0ae13f4cddad94bc1",
+    "workflow": [
+      "Application Submitted",
+      "Revenue Officer Review",
+      "Digital Certificate Issued"
+    ],
+    "benefits": "Authoritative income certificate valid for 1 financial year",
+    "createdAt": "2026-11-19T16:45:52.636Z",
+    "updatedAt": "2026-11-19T16:45:52.636Z"
+  },
+  {
+    "_id": "6aff27c0525f841232c2532c",
+    "ServiceId": "6aff27c0525f841232c2532c",
+    "name": "Domicile & Residence Certificate",
+    "department": "District Administration, Government of Maharashtra",
+    "description": "Proof of continuous residence in Maharashtra for educational & recruitment quota.",
+    "requirements": [
+      "Unified Profile",
+      "15-Year Residence Record"
+    ],
+    "connectorId": "6aff27c058b9cf690eb59a76",
+    "workflow": [
+      "Application Submitted",
+      "Police / Talathi Verification",
+      "Sub-Divisional Officer Sanction"
+    ],
+    "benefits": "Lifetime Domicile Certificate",
+    "createdAt": "2026-11-19T16:45:52.637Z",
+    "updatedAt": "2026-11-19T16:45:52.637Z"
+  },
+  {
+    "_id": "6aff27c08a35fcdc7002cb76",
+    "ServiceId": "6aff27c08a35fcdc7002cb76",
+    "name": "Chief Minister Employment Generation Scheme (CMEGP)",
+    "department": "Department of Skills, Employment, Entrepreneurship and Innovation",
+    "description": "Subsidized loan assistance and skill training for young entrepreneurs.",
+    "requirements": [
+      "Unified Profile",
+      "Project Proposal",
+      "Aadhaar / ID Verification"
+    ],
+    "connectorId": "6aff27c058b9cf690eb59a76",
+    "workflow": [
+      "Application Submitted",
+      "Bank Linkage",
+      "District Task Force Approval"
+    ],
+    "benefits": "Up to ₹50 Lakh project subsidy & mentorship",
+    "createdAt": "2026-11-19T16:45:52.638Z",
+    "updatedAt": "2026-11-19T16:45:52.638Z"
+  }
+]
