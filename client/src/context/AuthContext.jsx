@@ -5,7 +5,7 @@ const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
-  const [token, setToken] = useState(localStorage.getItem('samanvay_token') || null);
+  const [token, setToken] = useState(localStorage.getItem('ugdp_token') || localStorage.getItem('samanvay_token') || null);
   const [loading, setLoading] = useState(true);
   const [notifications, setNotifications] = useState([]);
   const [unreadCount, setUnreadCount] = useState(0);
@@ -59,7 +59,7 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     const res = await api.login(email, password);
     if (res.success && res.token) {
-      localStorage.setItem('samanvay_token', res.token);
+      localStorage.setItem('ugdp_token', res.token);
       setToken(res.token);
       setUser(res.user);
       await refreshNotifications();
@@ -71,7 +71,7 @@ export const AuthProvider = ({ children }) => {
   const register = async (data) => {
     const res = await api.register(data);
     if (res.success && res.token) {
-      localStorage.setItem('samanvay_token', res.token);
+      localStorage.setItem('ugdp_token', res.token);
       setToken(res.token);
       setUser(res.user);
       await refreshNotifications();
@@ -84,7 +84,7 @@ export const AuthProvider = ({ children }) => {
     try {
       const res = await api.demoLogin(targetRole);
       if (res.success && res.token) {
-        localStorage.setItem('samanvay_token', res.token);
+        localStorage.setItem('ugdp_token', res.token);
         setToken(res.token);
         setUser(res.user);
         await refreshNotifications();
@@ -97,6 +97,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const logout = () => {
+    localStorage.removeItem('ugdp_token');
     localStorage.removeItem('samanvay_token');
     setToken(null);
     setUser(null);

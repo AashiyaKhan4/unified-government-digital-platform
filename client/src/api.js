@@ -1,7 +1,7 @@
 const API_BASE = '/api';
 
 function getAuthHeader() {
-  const token = localStorage.getItem('samanvay_token');
+  const token = localStorage.getItem('ugdp_token') || localStorage.getItem('samanvay_token');
   return token ? { 'Authorization': `Bearer ${token}` } : {};
 }
 

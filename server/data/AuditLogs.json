@@ -144,5 +144,189 @@
     },
     "createdAt": "2026-11-19T16:46:29.494Z",
     "updatedAt": "2026-11-19T16:46:29.494Z"
+  },
+  {
+    "_id": "6b01448d59f85d9e2612dc50",
+    "AuditLogId": "6b01448d59f85d9e2612dc50",
+    "actor": "ANONYMOUS",
+    "action": "LOGIN_FAILED",
+    "resource": "/auth/login",
+    "outcome": "Failure",
+    "timestamp": "2026-11-21T07:13:17.447Z",
+    "details": {
+      "email": "aashiyakhan887@gmail.com",
+      "reason": "User not found"
+    },
+    "createdAt": "2026-11-21T07:13:17.450Z",
+    "updatedAt": "2026-11-21T07:13:17.450Z"
+  },
+  {
+    "_id": "6b0144a1e544ac6f90fefd0d",
+    "AuditLogId": "6b0144a1e544ac6f90fefd0d",
+    "actor": "6b0144a1fcdef7bd8be4388f",
+    "action": "USER_REGISTER",
+    "resource": "/users/6b0144a1fcdef7bd8be4388f",
+    "outcome": "Success",
+    "timestamp": "2026-11-21T07:13:37.296Z",
+    "details": {
+      "email": "aashiyakhan887@gmail.com",
+      "role": "citizen"
+    },
+    "createdAt": "2026-11-21T07:13:37.296Z",
+    "updatedAt": "2026-11-21T07:13:37.296Z"
+  },
+  {
+    "_id": "6b0144c63e4d5b2079a6457a",
+    "AuditLogId": "6b0144c63e4d5b2079a6457a",
+    "actor": "6b0144a1fcdef7bd8be4388f",
+    "action": "INTEROP_REQUEST_INCOME",
+    "resource": "/mock-portals/income",
+    "outcome": "Failure",
+    "correlationId": "CORR-7FFD79ACF980",
+    "timestamp": "2026-11-21T07:14:14.348Z",
+    "details": {
+      "error": "Consent verification failed. Required consent is missing, denied, or expired.",
+      "category": "Income Certificate",
+      "requestingService": "Scholarship Department"
+    },
+    "createdAt": "2026-11-21T07:14:14.348Z",
+    "updatedAt": "2026-11-21T07:14:14.348Z"
+  },
+  {
+    "_id": "6b0144c88aab42dfc4cedf71",
+    "AuditLogId": "6b0144c88aab42dfc4cedf71",
+    "actor": "6b0144a1fcdef7bd8be4388f",
+    "action": "INTEROP_REQUEST_INCOME",
+    "resource": "/mock-portals/income",
+    "outcome": "Failure",
+    "correlationId": "CORR-C01A3348FA51",
+    "timestamp": "2026-11-21T07:14:16.458Z",
+    "details": {
+      "error": "Consent verification failed. Required consent is missing, denied, or expired.",
+      "category": "Income Certificate",
+      "requestingService": "Scholarship Department"
+    },
+    "createdAt": "2026-11-21T07:14:16.458Z",
+    "updatedAt": "2026-11-21T07:14:16.458Z"
+  },
+  {
+    "_id": "6b0144c919eae964057d131d",
+    "AuditLogId": "6b0144c919eae964057d131d",
+    "actor": "6b0144a1fcdef7bd8be4388f",
+    "action": "INTEROP_REQUEST_INCOME",
+    "resource": "/mock-portals/income",
+    "outcome": "Failure",
+    "correlationId": "CORR-0A3A1F45DBAF",
+    "timestamp": "2026-11-21T07:14:17.322Z",
+    "details": {
+      "error": "Consent verification failed. Required consent is missing, denied, or expired.",
+      "category": "Income Certificate",
+      "requestingService": "Scholarship Department"
+    },
+    "createdAt": "2026-11-21T07:14:17.322Z",
+    "updatedAt": "2026-11-21T07:14:17.322Z"
+  },
+  {
+    "_id": "6b0144cab9d1a3d0edfcdebf",
+    "AuditLogId": "6b0144cab9d1a3d0edfcdebf",
+    "actor": "6b0144a1fcdef7bd8be4388f",
+    "action": "INTEROP_REQUEST_INCOME",
+    "resource": "/mock-portals/income",
+    "outcome": "Failure",
+    "correlationId": "CORR-5E1EDDB6C0A4",
+    "timestamp": "2026-11-21T07:14:18.031Z",
+    "details": {
+      "error": "Consent verification failed. Required consent is missing, denied, or expired.",
+      "category": "Income Certificate",
+      "requestingService": "Scholarship Department"
+    },
+    "createdAt": "2026-11-21T07:14:18.032Z",
+    "updatedAt": "2026-11-21T07:14:18.032Z"
+  },
+  {
+    "_id": "6b0144cbb23a6f4d176acf54",
+    "AuditLogId": "6b0144cbb23a6f4d176acf54",
+    "actor": "6b0144a1fcdef7bd8be4388f",
+    "action": "INTEROP_REQUEST_INCOME",
+    "resource": "/mock-portals/income",
+    "outcome": "Failure",
+    "correlationId": "CORR-A446B2F38743",
+    "timestamp": "2026-11-21T07:14:19.542Z",
+    "details": {
+      "error": "Consent verification failed. Required consent is missing, denied, or expired.",
+      "category": "Income Certificate",
+      "requestingService": "Scholarship Department"
+    },
+    "createdAt": "2026-11-21T07:14:19.543Z",
+    "updatedAt": "2026-11-21T07:14:19.543Z"
+  },
+  {
+    "_id": "6b014935500337716190dafa",
+    "AuditLogId": "6b014935500337716190dafa",
+    "actor": "6aff27c079d5e5968fc251bf",
+    "action": "INTEROP_REQUEST_INCOME",
+    "resource": "/mock-portals/income",
+    "outcome": "Failure",
+    "correlationId": "CORR-7B6D518CE615",
+    "timestamp": "2026-11-21T07:33:09.202Z",
+    "details": {
+      "error": "Consent verification failed. Required consent is missing, denied, or expired.",
+      "category": "Income Certificate",
+      "requestingService": "Scholarship Department"
+    },
+    "createdAt": "2026-11-21T07:33:09.202Z",
+    "updatedAt": "2026-11-21T07:33:09.202Z"
+  },
+  {
+    "_id": "6b0149357539613af652af39",
+    "AuditLogId": "6b0149357539613af652af39",
+    "actor": "6aff27c079d5e5968fc251bf",
+    "action": "CONSENT_GRANTED",
+    "resource": "/consents/6aff27c0249fda3729134c21",
+    "outcome": "Success",
+    "timestamp": "2026-11-21T07:33:09.211Z",
+    "details": {
+      "requestingServiceId": "Post-Matric Scholarship Scheme 2026",
+      "categories": [
+        "Income Certificate",
+        "Residence Verification"
+      ],
+      "purpose": "Inter-departmental verification for Post-Matric Scholarship Scheme 2026",
+      "expiry": "2027-02-19T07:33:09.210Z"
+    },
+    "createdAt": "2026-11-21T07:33:09.211Z",
+    "updatedAt": "2026-11-21T07:33:09.211Z"
+  },
+  {
+    "_id": "6b014935e15e8632b19ea703",
+    "AuditLogId": "6b014935e15e8632b19ea703",
+    "actor": "6aff27c079d5e5968fc251bf",
+    "action": "APPLICATION_SUBMITTED",
+    "resource": "/applications/6b01493554a351504272a5d4",
+    "outcome": "Success",
+    "timestamp": "2026-11-21T07:33:09.260Z",
+    "details": {
+      "trackingCode": "SCH-1794",
+      "serviceName": "Post-Matric Scholarship Scheme 2026"
+    },
+    "createdAt": "2026-11-21T07:33:09.260Z",
+    "updatedAt": "2026-11-21T07:33:09.260Z"
+  },
+  {
+    "_id": "6b01493589bdfeacc29e4629",
+    "AuditLogId": "6b01493589bdfeacc29e4629",
+    "actor": "6aff27c079d5e5968fc251bf",
+    "action": "INTEROP_REQUEST_INCOME",
+    "resource": "/mock-portals/income",
+    "outcome": "Failure",
+    "correlationId": "CORR-08FE37D8F065",
+    "timestamp": "2026-11-21T07:33:09.263Z",
+    "details": {
+      "error": "Consent verification failed. Required consent is missing, denied, or expired.",
+      "category": "Income Certificate",
+      "requestingService": "scholarship-service"
+    },
+    "createdAt": "2026-11-21T07:33:09.264Z",
+    "updatedAt": "2026-11-21T07:33:09.264Z"
   }
 ]

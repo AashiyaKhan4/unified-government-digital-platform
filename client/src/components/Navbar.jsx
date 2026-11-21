@@ -35,7 +35,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
       {/* Top Gov Banner */}
       <div className="bg-gradient-to-r from-orange-600 via-amber-600 to-emerald-700 text-white text-xs px-4 py-1.5 flex justify-between items-center font-medium">
         <div className="flex items-center space-x-2">
-          <span className="bg-white/20 px-2 py-0.5 rounded font-mono text-[11px]">SIH 2026 • SIH26129</span>
+          <span className="bg-white/20 px-2 py-0.5 rounded font-mono text-[11px]">Maharashtra Digital Governance</span>
           <span>Government of Maharashtra • MSIS & Skill Development Dept</span>
         </div>
         <div className="hidden md:flex items-center space-x-4">
@@ -48,16 +48,18 @@ export default function Navbar({ activeTab, setActiveTab }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setActiveTab(user?.role === 'citizen' ? 'dashboard' : user?.role === 'official' ? 'official-dashboard' : 'admin-connectors')}>
-            <div className="w-10 h-10 rounded-lg bg-indigo-700 text-white flex items-center justify-center font-bold text-xl shadow-md">
-              स
+          <div 
+            className="flex items-center space-x-3 cursor-pointer" 
+            onClick={() => setActiveTab(user?.role === 'citizen' ? 'dashboard' : user?.role === 'official' ? 'official-dashboard' : 'admin-connectors')}
+          >
+            <div className="w-10 h-10 rounded-lg bg-indigo-700 text-white flex items-center justify-center font-bold text-xs tracking-wider shadow-md">
+              <ShieldCheck className="w-6 h-6 text-emerald-300" />
             </div>
             <div>
               <div className="flex items-center space-x-1.5">
-                <span className="text-xl font-black text-slate-900 tracking-tight">SAMANVAY</span>
-                <span className="text-xs font-semibold px-1.5 py-0.5 bg-indigo-100 text-indigo-800 rounded">समन्वय</span>
+                <span className="text-lg font-black text-slate-900 tracking-tight">Unified Government Digital Platform</span>
               </div>
-              <p className="text-[11px] text-slate-500 font-medium">Unified Government Services Integration Platform</p>
+              <p className="text-[11px] text-slate-500 font-medium">Interoperable Citizen Service Delivery & Integration Gateway</p>
             </div>
           </div>
 
@@ -133,7 +135,7 @@ export default function Navbar({ activeTab, setActiveTab }) {
               </button>
             )}
 
-            {/* Special Demo Behind-the-Scenes tab */}
+            {/* Architecture & Interop Inspector Tab */}
             <button
               onClick={() => setActiveTab('demo-interop')}
               className={`px-3 py-2 rounded-md text-sm font-semibold flex items-center space-x-1.5 transition ${
@@ -141,16 +143,16 @@ export default function Navbar({ activeTab, setActiveTab }) {
                   ? 'bg-amber-100 text-amber-900 border border-amber-300'
                   : 'bg-amber-50 text-amber-800 hover:bg-amber-100'
               }`}
-              title="SIH Evaluator Architecture & Schema Transformation Inspector"
+              title="Architecture & Schema Transformation Inspector"
             >
               <Code2 className="w-4 h-4 text-amber-700" />
-              <span>SIH Demo Inspector</span>
+              <span>Interop Inspector</span>
             </button>
           </nav>
 
           {/* Right actions: Role Quick Switcher + Notifications + Profile */}
           <div className="flex items-center space-x-3">
-            {/* Quick Role Switcher Pill for Judges */}
+            {/* Quick Role Switcher Pill */}
             <div className="hidden sm:flex items-center bg-slate-100 p-1 rounded-lg border border-slate-200">
               <span className="text-[11px] font-bold text-slate-500 uppercase px-2">Role:</span>
               <button

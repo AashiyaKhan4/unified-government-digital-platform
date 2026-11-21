@@ -1,6 +1,6 @@
 /**
  * DataMapper - Implements schema transformation between heterogeneous portals
- * and the Samanvay Unified Data Model (UDM) as specified in SDS Module 5 & Class Diagram.
+ * and the Unified Data Model (UDM) as specified in SDS Module 5 & Class Diagram.
  */
 class DataMapper {
   static formatDateToCommon(dateStr) {
@@ -41,7 +41,7 @@ class DataMapper {
           current_course: common.education?.course || common.course || 'B.Tech CSE',
           academic_year: common.education?.year || common.year || 2026,
           marks_percentage: common.education?.score || common.score || 88.5,
-          request_source: 'SAMANVAY_GATEWAY'
+          request_source: 'UGDP_GATEWAY'
         };
 
       case 'income':
@@ -64,7 +64,7 @@ class DataMapper {
           residential_address: common.address || 'Flat 402, Green Park, Andheri East, Mumbai, Maharashtra - 400069',
           district: common.district || 'Mumbai Suburban',
           state: 'Maharashtra',
-          request_source: 'SAMANVAY_GATEWAY'
+          request_source: 'UGDP_GATEWAY'
         };
 
       default:
@@ -73,7 +73,7 @@ class DataMapper {
   }
 
   /**
-   * Convert Target Portal Response -> Samanvay Common Schema
+   * Convert Target Portal Response -> Unified Common Schema
    */
   static toCommon(portalType, portalData) {
     const raw = { ...portalData };

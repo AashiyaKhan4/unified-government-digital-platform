@@ -1,7 +1,7 @@
 const jwt = require('jsonwebtoken');
 const { UserModel } = require('../models');
 
-const JWT_SECRET = process.env.JWT_SECRET || 'samanvay-sih-2026-secret-key-medicaps-indore';
+const JWT_SECRET = process.env.JWT_SECRET || 'ugdp-jwt-secret-key-medicaps-indore';
 
 function generateToken(user) {
   return jwt.sign(

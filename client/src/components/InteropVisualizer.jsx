@@ -67,13 +67,13 @@ export default function InteropVisualizer() {
           <div>
             <div className="inline-flex items-center space-x-2 bg-amber-500/20 text-amber-300 px-3 py-1 rounded-full text-xs font-semibold mb-2 border border-amber-400/30">
               <Cpu className="w-3.5 h-3.5" />
-              <span>SIH 2026 Core Innovation • Behind The Scenes</span>
+              <span>Core Architectural Innovation • Interoperability Engine</span>
             </div>
             <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
-              Interoperability & Data Mapping Engine
+              Data Mapping & Interoperability Architecture
             </h1>
             <p className="text-slate-300 text-sm mt-1 max-w-2xl">
-              Demonstrating how Samanvay connects heterogeneous government databases using polymorphic connectors, canonical schema transformation, and strict consent verification.
+              Demonstrating how the Unified Government Digital Platform connects heterogeneous departmental databases using polymorphic connectors, canonical schema transformation, and strict consent verification.
             </p>
           </div>
 
@@ -92,7 +92,7 @@ export default function InteropVisualizer() {
 
       {/* Grid: Schema Comparison Matrix & Mock Portal Health */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {/* Mapping Matrix (Page 7 & Page 15) */}
+        {/* Mapping Matrix */}
         <div className="lg:col-span-2 bg-white rounded-2xl border border-slate-200 p-6 shadow-xs space-y-4">
           <div className="flex items-center justify-between">
             <h3 className="text-sm font-bold text-slate-800 uppercase tracking-wider flex items-center space-x-2">
@@ -106,7 +106,7 @@ export default function InteropVisualizer() {
             <table className="w-full text-left text-xs">
               <thead className="bg-slate-100 text-slate-700 uppercase font-bold">
                 <tr>
-                  <th className="p-3 rounded-l-lg">Samanvay Common Field</th>
+                  <th className="p-3 rounded-l-lg">Unified Common Field</th>
                   <th className="p-3">Scholarship Portal</th>
                   <th className="p-3">Income Certificate Portal</th>
                   <th className="p-3 rounded-r-lg">Residence Verification</th>
@@ -152,7 +152,7 @@ export default function InteropVisualizer() {
             <span>Fault Injection Simulator</span>
           </h3>
           <p className="text-xs text-slate-500">
-            Simulate portal delays or 503 outages to see Samanvay's automated retry policy and Pending Verification status in action!
+            Simulate portal delays or 503 outages to see the platform's automated retry policy and Pending Verification status in action!
           </p>
 
           <div className="space-y-3 pt-1">
@@ -229,7 +229,7 @@ export default function InteropVisualizer() {
                 targetService === 'scholarship' ? 'bg-indigo-600 text-white' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
               }`}
             >
-              MahaDBT Scholarship Portal
+              Scholarship Portal
             </button>
           </div>
         </div>
@@ -239,7 +239,7 @@ export default function InteropVisualizer() {
         </span>
       </div>
 
-      {/* Live Execution Output Inspection (Page 15) */}
+      {/* Live Execution Output Inspection */}
       {result && (
         <div className="bg-white rounded-2xl border border-slate-200 p-6 shadow-lg space-y-4 animate-in fade-in slide-in-from-top-3 duration-200">
           <div className="flex items-center justify-between pb-3 border-b border-slate-100">
@@ -277,10 +277,10 @@ export default function InteropVisualizer() {
               </pre>
             </div>
 
-            {/* Box 3: Samanvay Normalized Common Response */}
+            {/* Box 3: Common Response */}
             <div className="bg-slate-900 rounded-xl p-4 text-slate-100 font-mono text-xs flex flex-col">
               <div className="flex items-center justify-between pb-2 mb-2 border-b border-slate-800 text-emerald-400 font-bold">
-                <span>3. Samanvay Common Response</span>
+                <span>3. Unified Common Response</span>
                 <span className="text-[10px] text-slate-400">Normalized (UDM)</span>
               </div>
               <pre className="overflow-x-auto flex-1 text-[11px] text-slate-300">

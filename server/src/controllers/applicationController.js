@@ -36,7 +36,7 @@ class ApplicationController {
           stage: 'Application Submitted',
           status: 'Completed',
           timestamp: new Date().toISOString(),
-          details: `Application submitted successfully via Samanvay Gateway. Tracking ID: ${trackingCode}`
+          details: `Application submitted successfully via Unified Gateway. Tracking ID: ${trackingCode}`
         }
       ];
 

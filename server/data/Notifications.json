@@ -63,5 +63,37 @@
     "readStatus": false,
     "createdAt": "2026-11-19T16:46:29.496Z",
     "updatedAt": "2026-11-19T16:46:29.496Z"
+  },
+  {
+    "_id": "6b0149352859361406f8b0c9",
+    "NotificationId": "6b0149352859361406f8b0c9",
+    "userId": "6aff27c079d5e5968fc251bf",
+    "message": "Consent granted for Income Certificate, Residence Verification to Post-Matric Scholarship Scheme 2026. Valid until 19/2/2027.",
+    "eventType": "consent_granted",
+    "readStatus": false,
+    "timestamp": "2026-11-21T07:33:09.257Z",
+    "createdAt": "2026-11-21T07:33:09.258Z",
+    "updatedAt": "2026-11-21T07:33:09.258Z"
+  },
+  {
+    "_id": "6b0149358d550a08629fe9f4",
+    "NotificationId": "6b0149358d550a08629fe9f4",
+    "userId": "6aff27c079d5e5968fc251bf",
+    "message": "Your application SCH-1794 for Post-Matric Scholarship Scheme 2026 has been submitted.",
+    "eventType": "application_submitted",
+    "readStatus": false,
+    "timestamp": "2026-11-21T07:33:09.262Z",
+    "createdAt": "2026-11-21T07:33:09.262Z",
+    "updatedAt": "2026-11-21T07:33:09.262Z"
+  },
+  {
+    "_id": "6b0149353fb786c8c0dda40a",
+    "NotificationId": "6b0149353fb786c8c0dda40a",
+    "userId": "6aff27c079d5e5968fc251bf",
+    "message": "Action Required: Please grant consent to share verification data for your Post-Matric Scholarship Scheme 2026 application.",
+    "eventType": "consent_request",
+    "readStatus": false,
+    "createdAt": "2026-11-21T07:33:09.266Z",
+    "updatedAt": "2026-11-21T07:33:09.266Z"
   }
 ]

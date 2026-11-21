@@ -3,7 +3,7 @@
     "_id": "6aff27c079d5e5968fc251bf",
     "UserId": "6aff27c079d5e5968fc251bf",
     "name": "Rahul Sharma",
-    "email": "citizen@samanvay.gov.in",
+    "email": "citizen@ugdp.gov.in",
     "passwordHash": "$2b$10$WTeZrldQhZBVwsLzjsE....HPGgIMRr0fXgTBn0joT68U2iqflHJm",
     "role": "citizen",
     "createdAt": "2026-11-19T16:45:52.627Z",
@@ -13,7 +13,7 @@
     "_id": "6aff27c0162e11c52d8e4bc2",
     "UserId": "6aff27c0162e11c52d8e4bc2",
     "name": "Priya Deshmukh",
-    "email": "official@samanvay.gov.in",
+    "email": "official@ugdp.gov.in",
     "passwordHash": "$2b$10$WTeZrldQhZBVwsLzjsE....HPGgIMRr0fXgTBn0joT68U2iqflHJm",
     "role": "official",
     "createdAt": "2026-11-19T16:45:52.629Z",
@@ -23,10 +23,20 @@
     "_id": "6aff27c08856d01784796ead",
     "UserId": "6aff27c08856d01784796ead",
     "name": "Vikram Patil",
-    "email": "admin@samanvay.gov.in",
+    "email": "admin@ugdp.gov.in",
     "passwordHash": "$2b$10$WTeZrldQhZBVwsLzjsE....HPGgIMRr0fXgTBn0joT68U2iqflHJm",
     "role": "admin",
     "createdAt": "2026-11-19T16:45:52.630Z",
     "updatedAt": "2026-11-19T16:45:52.630Z"
+  },
+  {
+    "_id": "6b0144a1fcdef7bd8be4388f",
+    "UserId": "6b0144a1fcdef7bd8be4388f",
+    "name": "Aashiya Khan",
+    "email": "aashiyakhan887@gmail.com",
+    "passwordHash": "$2b$10$v/2plD7FI8rhjJReQ/vjS.gEr2JDL0NKmwrjRHKPwtcx6Szv.5sYm",
+    "role": "citizen",
+    "createdAt": "2026-11-21T07:13:37.294Z",
+    "updatedAt": "2026-11-21T07:13:37.294Z"
   }
 ]

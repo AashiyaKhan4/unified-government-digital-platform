@@ -16,7 +16,7 @@ class WorkflowEngine {
         stage: 'Application Submitted',
         status: 'Completed',
         timestamp: new Date().toISOString(),
-        details: 'Application successfully received by the Samanvay Gateway.'
+        details: 'Application successfully received by the Unified Gateway.'
       }
     ];
 

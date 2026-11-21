@@ -13,7 +13,7 @@ export default function TimelineTracker({ application, onRetry }) {
   const isIncomplete = status === 'Incomplete';
 
   const stagesDef = [
-    { name: 'Application Submitted', desc: 'Successfully received by the department via Samanvay Gateway' },
+    { name: 'Application Submitted', desc: 'Successfully received by the department via Unified Gateway' },
     { name: 'Initial Validation', desc: 'Basic information and unified profile matched' },
     { name: 'Department Verification', desc: 'Inter-department verification of income, residence & records' },
     { name: 'Decision / Approval', desc: 'Sanction and final departmental determination' }

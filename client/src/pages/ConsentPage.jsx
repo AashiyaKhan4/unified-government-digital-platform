@@ -62,7 +62,7 @@ export default function ConsentPage() {
         </span>
         <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight">Data Sharing Permissions & Consent History</h1>
         <p className="text-slate-300 text-xs sm:text-sm mt-1 max-w-2xl">
-          Under the Digital Personal Data Protection guidelines, Samanvay gives you complete sovereignty over which departments can access your verified records, for what purpose, and for how long.
+          Under the Digital Personal Data Protection guidelines, the platform gives you complete sovereignty over which departments can access your verified records, for what purpose, and for how long.
         </p>
       </div>
 

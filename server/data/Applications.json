@@ -171,5 +171,57 @@
     "createdAt": "2026-11-19T16:46:29.492Z",
     "updatedAt": "2026-11-19T16:46:29.495Z",
     "statusReason": "Consent Required: Please approve sharing of Income & Residence data."
+  },
+  {
+    "_id": "6b01493554a351504272a5d4",
+    "ApplicationId": "6b01493554a351504272a5d4",
+    "applicationTrackingCode": "SCH-1794",
+    "citizenId": "6aff27c079d5e5968fc251bf",
+    "serviceId": "6aff27c0d5a7add5b875793e",
+    "serviceName": "Post-Matric Scholarship Scheme 2026",
+    "department": "Higher & Technical Education Department",
+    "status": "Incomplete",
+    "formData": {
+      "fullName": "Rahul Sharma",
+      "course": "B.Tech CSE",
+      "annualIncome": "₹1,80,000"
+    },
+    "timeline": [
+      {
+        "stage": "Application Submitted",
+        "status": "Completed",
+        "timestamp": "2026-11-21T07:33:09.259Z",
+        "details": "Application submitted successfully via Samanvay Gateway. Tracking ID: SCH-1794"
+      },
+      {
+        "stage": "Initial Validation",
+        "status": "Completed",
+        "timestamp": "2026-11-21T07:33:09.263Z",
+        "details": "Basic information validated against citizen unified profile."
+      },
+      {
+        "stage": "Consent Verification",
+        "status": "Blocked",
+        "timestamp": "2026-11-21T07:33:09.265Z",
+        "details": "Citizen consent for Income Certificate sharing is missing or denied."
+      }
+    ],
+    "submittedAt": "2026-11-21T07:33:09.259Z",
+    "interoperabilityLogs": [
+      {
+        "service": "Income Certificate Portal",
+        "timestamp": "2026-11-21T07:33:09.265Z",
+        "result": {
+          "success": false,
+          "consentGranted": false,
+          "reason": "CONSENT_DENIED",
+          "message": "Data sharing blocked: Citizen has not granted active consent for Income Certificate.",
+          "correlationId": "CORR-08FE37D8F065"
+        }
+      }
+    ],
+    "createdAt": "2026-11-21T07:33:09.259Z",
+    "updatedAt": "2026-11-21T07:33:09.265Z",
+    "statusReason": "Consent Required: Please approve sharing of Income & Residence data."
   }
 ]

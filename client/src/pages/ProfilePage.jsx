@@ -95,7 +95,7 @@ export default function ProfilePage() {
           </span>
           <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight">Unified Citizen Profile</h1>
           <p className="text-indigo-200 text-xs sm:text-sm mt-1 max-w-xl">
-            Enter your details once. The Samanvay Integration Engine automatically maps and pre-fills them across all Maharashtra government departments.
+            Enter your details once. The platform's integration engine automatically maps and pre-fills them across all Maharashtra government departments.
           </p>
         </div>
 

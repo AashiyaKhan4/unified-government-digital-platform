@@ -46,17 +46,16 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 flex flex-col justify-center items-center px-4 py-12">
       {/* Top Branding */}
-      <div className="text-center mb-8 max-w-lg">
-        <div className="inline-flex items-center space-x-2 bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full text-xs font-semibold mb-3 border border-indigo-400/30">
+      <div className="text-center mb-8 max-w-xl">
+        <div className="inline-flex items-center space-x-2 bg-indigo-500/20 text-indigo-300 px-3.5 py-1 rounded-full text-xs font-semibold mb-3 border border-indigo-400/30">
           <ShieldCheck className="w-4 h-4 text-emerald-400" />
-          <span>Smart India Hackathon 2026 • SIH26129</span>
+          <span>Interoperable Digital Governance Initiative</span>
         </div>
-        <h1 className="text-3xl sm:text-4xl font-black text-white tracking-tight flex items-center justify-center space-x-2">
-          <span>SAMANVAY</span>
-          <span className="text-indigo-400 font-normal text-2xl font-serif">समन्वय</span>
+        <h1 className="text-3xl sm:text-4xl font-black text-white tracking-tight">
+          Unified Government Digital Platform
         </h1>
         <p className="text-slate-300 text-sm mt-2 font-medium">
-          Unified Government Digital Services Integration Platform
+          Integrated Middleware Layer for Cross-Department Digital Service Delivery
         </p>
         <p className="text-xs text-slate-400 mt-1">
           Government of Maharashtra • Department of Skills, Employment, Entrepreneurship & Innovation
@@ -65,10 +64,10 @@ export default function LoginPage() {
 
       {/* Main Card */}
       <div className="w-full max-w-md bg-white rounded-3xl shadow-2xl border border-slate-100 overflow-hidden">
-        {/* Quick Demo Switcher Strip for Evaluators */}
+        {/* Quick Demo Switcher Strip */}
         <div className="bg-slate-100 p-3 border-b border-slate-200">
           <div className="text-[11px] font-bold text-slate-500 uppercase tracking-wider text-center mb-2">
-            ⚡ Quick 1-Click Demo Access for Judges
+            ⚡ Quick 1-Click Access
           </div>
           <div className="grid grid-cols-3 gap-1.5">
             <button
@@ -147,7 +146,7 @@ export default function LoginPage() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="citizen@samanvay.gov.in"
+                placeholder="citizen@ugdp.gov.in"
                 className="w-full pl-9 pr-3 py-2 text-xs border border-slate-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:outline-hidden"
               />
             </div>

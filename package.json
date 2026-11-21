@@ -1,7 +1,7 @@
 {
-  "name": "samanvay-ugds",
+  "name": "unified-government-digital-platform",
   "version": "1.0.0",
-  "description": "SAMANVAY – Unified Government Digital Services Integration Platform (SIH 2026 Problem Statement 26129)",
+  "description": "Unified Government Digital Platform – Middleware Layer for Cross-Department Digital Service Delivery",
   "main": "server/server.js",
   "scripts": {
     "server": "node server/server.js",
@@ -11,13 +11,12 @@
     "seed": "node -e \"require('./server/src/seed/seedData').seedInitialData()\""
   },
   "keywords": [
-    "sih2026",
     "interoperability",
-    "samanvay",
     "e-governance",
     "middleware",
     "connectors",
-    "consent"
+    "consent",
+    "unified-platform"
   ],
   "author": "Aarya Jain & Aashiya Khan, Medicaps University",
   "license": "ISC",

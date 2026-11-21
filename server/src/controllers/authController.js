@@ -79,7 +79,13 @@ class AuthController {
         return res.status(400).json({ success: false, message: 'Email and password are required.' });
       }
 
-      const user = await UserModel.findOne({ email: email.toLowerCase() });
+      const queryEmail = email.toLowerCase().trim();
+      let user = await UserModel.findOne({ email: queryEmail });
+      if (!user && queryEmail.includes('@ugdp.gov.in')) {
+        user = await UserModel.findOne({ email: queryEmail.replace('@ugdp.gov.in', '@samanvay.gov.in') });
+      } else if (!user && queryEmail.includes('@samanvay.gov.in')) {
+        user = await UserModel.findOne({ email: queryEmail.replace('@samanvay.gov.in', '@ugdp.gov.in') });
+      }
       if (!user) {
         await AuditLogModel.create({
           actor: 'ANONYMOUS',

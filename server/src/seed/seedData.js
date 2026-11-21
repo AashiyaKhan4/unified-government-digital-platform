@@ -17,28 +17,28 @@ async function seedInitialData() {
     return;
   }
 
-  console.log('[Seed] Populating initial demonstration data for SIH 2026...');
+  console.log('[Seed] Populating initial demonstration data for Unified Government Digital Platform...');
 
   const passwordHash = await bcrypt.hash('Password@123', 10);
 
   // 1. Users
   const citizen = await UserModel.create({
     name: 'Rahul Sharma',
-    email: 'citizen@samanvay.gov.in',
+    email: 'citizen@ugdp.gov.in',
     passwordHash,
     role: 'citizen'
   });
 
   const official = await UserModel.create({
     name: 'Priya Deshmukh',
-    email: 'official@samanvay.gov.in',
+    email: 'official@ugdp.gov.in',
     passwordHash,
     role: 'official'
   });
 
   const admin = await UserModel.create({
     name: 'Vikram Patil',
-    email: 'admin@samanvay.gov.in',
+    email: 'admin@ugdp.gov.in',
     passwordHash,
     role: 'admin'
   });
@@ -51,7 +51,7 @@ async function seedInitialData() {
     address: 'Flat 402, Green Park, Andheri East, Mumbai, Maharashtra - 400069',
     contact: {
       phone: '+91 98201 12345',
-      email: 'citizen@samanvay.gov.in'
+      email: 'citizen@ugdp.gov.in'
     },
     education: {
       course: 'B.Tech in Computer Science & Engineering',
@@ -174,7 +174,7 @@ async function seedInitialData() {
         stage: 'Application Submitted',
         status: 'Completed',
         timestamp: new Date(Date.now() - 2 * 24 * 3600 * 1000).toISOString(),
-        details: 'Submitted via Samanvay Gateway. Tracking Code: SCH-1025'
+        details: 'Submitted via Unified Gateway. Tracking Code: SCH-1025'
       },
       {
         stage: 'Initial Validation',
@@ -269,7 +269,7 @@ async function seedInitialData() {
   // 7. Notifications
   await NotificationModel.create({
     userId: citizen._id,
-    message: 'Welcome to Samanvay! Your Unified Citizen Profile is initialized and verified.',
+    message: 'Welcome to Unified Government Digital Platform! Your Unified Citizen Profile is initialized and verified.',
     eventType: 'welcome',
     readStatus: true,
     timestamp: new Date(Date.now() - 8 * 24 * 3600 * 1000).toISOString()

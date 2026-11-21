@@ -147,7 +147,7 @@ export default function ApplicationFormPage({ service, setActiveTab, setSelected
           Application Form: {currentService.name}
         </h1>
         <p className="text-xs text-slate-500 mt-1">
-          Submission invokes the Samanvay Workflow Engine to coordinate cross-department verification.
+          Submission invokes the Workflow Engine to coordinate cross-department verification.
         </p>
 
         {/* Profile Reuse Banner (Module 2 Showcase) */}
@@ -196,7 +196,7 @@ export default function ApplicationFormPage({ service, setActiveTab, setSelected
             {useSavedProfile && (
               <span className="text-[11px] font-bold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200 flex items-center space-x-1">
                 <CheckCircle2 className="w-3.5 h-3.5" />
-                <span>Pre-filled from Samanvay Common Profile</span>
+                <span>Pre-filled from Unified Citizen Profile</span>
               </span>
             )}
           </div>

@@ -1,7 +1,7 @@
 const http = require('http');
 
 async function runTests() {
-  console.log('--- Starting Automated End-to-End Test for Samanvay ---');
+  console.log('--- Starting Automated End-to-End Test for Unified Government Digital Platform ---');
 
   // Helper fetch function
   const request = async (url, options = {}) => {
