@@ -328,5 +328,19 @@
     },
     "createdAt": "2026-11-21T07:33:09.264Z",
     "updatedAt": "2026-11-21T07:33:09.264Z"
+  },
+  {
+    "_id": "6b014a470652a47cc6aa1b41",
+    "AuditLogId": "6b014a470652a47cc6aa1b41",
+    "actor": "6b0144a1fcdef7bd8be4388f",
+    "action": "USER_LOGIN",
+    "resource": "/auth/login",
+    "outcome": "Success",
+    "timestamp": "2026-11-21T07:37:43.314Z",
+    "details": {
+      "role": "citizen"
+    },
+    "createdAt": "2026-11-21T07:37:43.314Z",
+    "updatedAt": "2026-11-21T07:37:43.314Z"
   }
 ]
