@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: unified-gov-digital-platform
+    runtime: node
+    region: singapore
+    plan: free
+    buildCommand: npm install && npm --prefix client install && npm --prefix client run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        value: ugdp-jwt-secret-key-medicaps-indore-2026
