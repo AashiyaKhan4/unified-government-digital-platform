@@ -32,18 +32,6 @@ export default function Navbar({ activeTab, setActiveTab }) {
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-slate-200 shadow-xs">
-      {/* Top Gov Banner */}
-      <div className="bg-gradient-to-r from-orange-600 via-amber-600 to-emerald-700 text-white text-xs px-4 py-1.5 flex justify-between items-center font-medium">
-        <div className="flex items-center space-x-2">
-          <span className="bg-white/20 px-2 py-0.5 rounded font-mono text-[11px]">Maharashtra Digital Governance</span>
-          <span>Government of Maharashtra • MSIS & Skill Development Dept</span>
-        </div>
-        <div className="hidden md:flex items-center space-x-4">
-          <span>Medicaps University, Indore • Project–1</span>
-          <span className="opacity-80">Students: Aarya Jain & Aashiya Khan</span>
-        </div>
-      </div>
-
       {/* Main Navbar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
